@@ -12,7 +12,9 @@ Headline findings
 
 4.	Age, tenure and employment type show little variation.	Attrition stays between roughly 37% and 41% across these cuts. The 3–5 year band is highest at 40.9%. The 54–63 age group is lower (16.7%) but has only 12 people.
 
-Overall attrition is 39.2% (392 of 1,000 employees). Average salary is $60,209 with only about a $1,300 spread between departments, so pay does not explain the differences.
+Overall attrition is 39.2% (392 of 1,000 employees). 
+
+Average salary is $60,209 with only about a $1,300 spread between departments, so pay does not explain the differences.
 
 Recommendations in the deck
 
