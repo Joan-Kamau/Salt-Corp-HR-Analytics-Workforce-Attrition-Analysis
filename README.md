@@ -21,19 +21,19 @@ Recommendations in the deck
 3. Introduce a mid-tenure career path (year 3–5 milestone reviews and promotion tracks).
 4. Institutionalise stay interviews, starting with Marketing.
 
+Workforce overview
+
+Metric	Value
+
+Total employees	1,000
+
+Average salary	$60,209
+
+Female / Male	49.3% / 50.7%
+
+Overall attrition rate	39.2%
+
 The workbook [(data/HR_data.xlsx)](url)
-
-Raw Data	Original 1,000 × 24 dataset, untouched
-Cleaned_HR_data	Original columns plus Cleaned_* columns and an Attrition Value (0/1) flag
-Workforce Overview	Headcount, average salary, gender split, salary and headcount by department
-Attrition Analysis	Attrition by department and by years of service
-Age Group Analysis	Attrition by age band
-Employment Status	Attrition by Full-Time / Part-Time / Contract
-Job Satisfaction	Satisfaction by department and attrition by satisfaction score
-Findings	Written summary of key findings
-Data_dictionary	Column definitions
-
-The analysis sheets are Excel pivot tables and charts built on Cleaned_HR_data.
 
 Method summary
 
