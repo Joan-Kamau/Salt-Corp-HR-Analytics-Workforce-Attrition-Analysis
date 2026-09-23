@@ -41,8 +41,6 @@ Female / Male	49.3% / 50.7%
 
 Overall attrition rate	39.2%
 
-The workbook [(data/HR_data.xlsx)](url)
-
 Method summary
 
 Cleaning: consistent department and employment-status labels, text salaries and ages converted to numbers, date formats standardised.
