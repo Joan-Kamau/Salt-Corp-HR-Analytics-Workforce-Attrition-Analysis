@@ -22,6 +22,10 @@ Overall attrition is 39.2% (392 of 1,000 employees).
 
 Average salary is $60,209 with only about a $1,300 spread between departments, so pay does not explain the differences.
 
+Key Findings	
+<img width="1283" height="579" alt="image" src="https://github.com/user-attachments/assets/82e29c29-4b05-4a75-8c24-0164e314c1fc" />
+
+
 Recommendations in the deck
 
 1. Direct retention effort at employees scoring 1–2 on satisfaction, rather than broad salary increases.
@@ -41,10 +45,36 @@ Female / Male	49.3% / 50.7%
 
 Overall attrition rate	39.2%
 
+Gender	Gender Distribution
+Female	49.3%
+Male	50.7%
+Grand Total	100.0%
+<img width="485" height="117" alt="image" src="https://github.com/user-attachments/assets/bb745a22-dd5c-4b0d-ade8-73df5f6a073e" />
+
+
+<img width="566" height="355" alt="image" src="https://github.com/user-attachments/assets/b15d6de3-af1f-49eb-9c18-2ab1f3dad991" />
+
+Department	Average Salary per Department
+Sales	 60,993 
+HR	 60,236 
+Marketing	 60,107 
+Finance	 59,984 
+IT	 59,713 
+Grand Total	 60,209 
+
+
+<img width="547" height="204" alt="image" src="https://github.com/user-attachments/assets/18da66ff-0c20-4efa-b86e-1078ff6b8707" />
+
+<img width="821" height="450" alt="image" src="https://github.com/user-attachments/assets/5f627fc9-61e2-41bf-a090-b18a6c2cfb5e" />
+
 Method summary
 
 Cleaning: consistent department and employment-status labels, text salaries and ages converted to numbers, date formats standardised.
+Salary Column: =IFS(TRIM(G2)="SIXTY THOUSAND",60000,TRIM(G2)="NAN",AVERAGEIFS(G:G,J:J,J2,L:L,L2),TRUE,G2)
+Department Column: =IF(OR(J2="HR",J2="IT"),UPPER(J2),PROPER(J2))
 
 Analysis: attrition rate (share of employees who left) compared across department, job satisfaction, age band, years-of-service band and employment status, in Excel pivot tables.
 
 Bands: age 24–33 / 34–43 / 44–53 / 54–63; years of service 0–2 / 3–5 / 6–8; satisfaction low (1–2) vs higher (3–5).
+
+Key Findings	
