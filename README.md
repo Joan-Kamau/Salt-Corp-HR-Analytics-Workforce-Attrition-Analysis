@@ -12,11 +12,11 @@ Headline findings
 
 1.	Job satisfaction is the strongest predictor of attrition.	Employees scoring satisfaction 1–2 leave at 56.0%, versus 26.4% for those scoring 3+. This group is 43% of headcount but accounts for about 62% of all departures (242 of 392).
 
-2.	Finance has the lowest satisfaction and above-average attrition.	Average satisfaction 2.72 / 5 (company average 2.92). Attrition of 40.4% is effectively tied with IT for second-highest.
+2.	Finance combines low morale with high attrition - The lowest satisfaction score (2.72/5) sits alongside the second-highest attrition rate (40.4%).
 
-3.	Marketing has the highest departmental attrition.	42.8%, against 36.0% in HR (lowest).
+3.	Marketing and the 3-5 year cohort turn over fastest- Marketing leads all departments at 42.8% attrition; the 3-5 year tenure band peaks at 40.9%.
 
-4.	Age, tenure and employment type show little variation.	Attrition stays between roughly 37% and 41% across these cuts. The 3–5 year band is highest at 40.9%. The 54–63 age group is lower (16.7%) but has only 12 people.
+4. Demographics are not the driver - Age, tenure, and employment type show only modest variation (roughly 37-41%), so broad policy changes targeting these alone are unlikely to help in retention. The 54–63 age group is lower (16.7%) but has only 12 people.
 
 Overall attrition is 39.2% (392 of 1,000 employees). 
 
@@ -75,8 +75,86 @@ Cleaning: consistent department and employment-status labels, text salaries and 
 
   - Cleaning Department Column: IF(OR(J2="HR",J2="IT"),UPPER(J2),PROPER(J2))
 
+  - Filled missing email addresses: =LOWER(CONCAT(B8,".",C8,"@saltcorp.com"))
+
 Analysis: attrition rate (share of employees who left) compared across department, job satisfaction, age band, years-of-service band and employment status, in Excel pivot tables.
 
-Bands: age 24–33 / 34–43 / 44–53 / 54–63; years of service 0–2 / 3–5 / 6–8; satisfaction low (1–2) vs higher (3–5).
+Attrition Per Department	
 
-Key Findings	
+Total Attrition Rate 39.2%
+
+<img width="632" height="273" alt="image" src="https://github.com/user-attachments/assets/df09d8df-8405-4b80-afb5-4d6f2e1aed5d" />
+
+
+Attrition Vs Years of Service		
+		
+Years of Service	Attrition Rate	
+0-2	36.8%	
+3-5	40.9%	
+6-8	39.1%	
+Grand Total	39.2%	
+
+<img width="461" height="207" alt="image" src="https://github.com/user-attachments/assets/a108c6ef-40a4-434d-b6e6-e6a491623a08" />
+
+Age Group Analysis
+
+Age Group	Total Employees	Employees Left	Attrition Rate (%)
+24-33	410	164	40.0%
+34-43	388	153	39.4%
+44-53	190	73	38.4%
+54-63	12	2	16.7%
+
+
+<img width="735" height="146" alt="image" src="https://github.com/user-attachments/assets/530ff60c-8b2f-44d2-b814-076405986d7a" />
+
+Attrition by Employment Status	
+	
+Employment Status	Attrition Rate (%)
+
+Contract	40.0%
+Full-Time	40.2%
+Part-Time	36.9%
+Grand Total	39.2%
+
+
+<img width="468" height="213" alt="image" src="https://github.com/user-attachments/assets/3882f6bd-5748-476f-9943-db909b630839" />
+
+Job Satisfaction
+
+Department	Job_Satisfaction/Department
+Marketing	3.01
+HR	2.99
+Sales	2.98
+IT	2.91
+Finance	2.72
+Grand Total	2.92
+
+
+<img width="519" height="204" alt="image" src="https://github.com/user-attachments/assets/1db2f680-d494-4faf-b892-ba9213df0e5b" />
+
+
+Job Satisfaction vs Attrition Rate
+
+Job Satisfaction Score	Employees	Employees Left	Attrition Rate
+
+1	 218	128	59%
+2	 214	114	53%
+3 	182	50	27%
+4	 206	54	26%
+5	 180	46	26%
+Grand Total	1000	392	39%
+
+<img width="849" height="204" alt="image" src="https://github.com/user-attachments/assets/0656a8cd-58bd-4c42-8e08-ef4045eb5406" />
+
+
+
+Bands: 
+
+Age 24–33 / 34–43 / 44–53 / 54–63 
+
+Years of service 0–2 / 3–5 / 6–8 
+
+Job Satisfaction Low (1–2) vs Higher (3–5)
+ 
+
+
