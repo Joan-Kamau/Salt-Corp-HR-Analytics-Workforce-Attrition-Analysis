@@ -33,7 +33,7 @@ Recommendations in the deck
 3. Introduce a mid-tenure career path (year 3–5 milestone reviews and promotion tracks).
 4. Institutionalise stay interviews, starting with Marketing.
 
-Workforce overview
+WORKFORCE OVERVIEW
 
 Metric	Value
 
@@ -48,7 +48,7 @@ Overall attrition rate	39.2%
 Gender	Gender Distribution
 Female	49.3%
 Male	50.7%
-Grand Total	100.0%
+
 <img width="485" height="117" alt="image" src="https://github.com/user-attachments/assets/bb745a22-dd5c-4b0d-ade8-73df5f6a073e" />
 
 
@@ -70,8 +70,10 @@ Grand Total	 60,209
 Method summary
 
 Cleaning: consistent department and employment-status labels, text salaries and ages converted to numbers, date formats standardised.
-Salary Column: =IFS(TRIM(G2)="SIXTY THOUSAND",60000,TRIM(G2)="NAN",AVERAGEIFS(G:G,J:J,J2,L:L,L2),TRUE,G2)
-Department Column: =IF(OR(J2="HR",J2="IT"),UPPER(J2),PROPER(J2))
+
+  - Cleaning Salary Column: IFS(TRIM(G2)="SIXTY THOUSAND",60000,TRIM(G2)="NAN",AVERAGEIFS(G:G,J:J,J2,L:L,L2),TRUE,G2)
+
+  - Cleaning Department Column: IF(OR(J2="HR",J2="IT"),UPPER(J2),PROPER(J2))
 
 Analysis: attrition rate (share of employees who left) compared across department, job satisfaction, age band, years-of-service band and employment status, in Excel pivot tables.
 
