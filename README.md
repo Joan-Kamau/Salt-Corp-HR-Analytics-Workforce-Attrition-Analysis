@@ -22,7 +22,6 @@ Overall attrition is 39.2% (392 of 1,000 employees).
 
 Average salary is $60,209 with only about a $1,300 spread between departments, so pay does not explain the differences.
 
-Key Findings	
 <img width="1283" height="579" alt="image" src="https://github.com/user-attachments/assets/82e29c29-4b05-4a75-8c24-0164e314c1fc" />
 
 
