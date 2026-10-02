@@ -6,8 +6,6 @@ An analysis of 1,000 employees at Salt Corporation to find out who is leaving an
 
 Author: Joan Kamau
 
-Headline findings
-
 #	Finding	Evidence
 
 1.	Job satisfaction is the strongest predictor of attrition.	Employees scoring satisfaction 1–2 leave at 56.0%, versus 26.4% for those scoring 3+. This group is 43% of headcount but accounts for about 62% of all departures (242 of 392).
